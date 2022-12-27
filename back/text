@@ -1,0 +1,4 @@
+User: arn:aws:iam::470363080640:user/direct-upload-s3-bucket-cloud is not authorized to perform: dynamodb:GetItem on resource: arn:aws:dynamodb:us-east-1:470363080640:table/textract-to-comprehend because no identity-based policy allows the dynamodb:GetItem action"
+requestId
+: 
+"Q9BIS5P11EDBTL7H89QA1HI0HJVV4KQNSO5AEMVJF66Q9ASUAAJG"
