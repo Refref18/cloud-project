@@ -9,3 +9,7 @@ The primary objective of the application is to identify and extract the text con
 <br />This second lambda function uses the AWS Comprehend service to perform a sentiment analysis on the text. Comprehend is a natural language processing service that is capable of understanding and interpreting the sentiment of written text. It analyzes the text and assigns a sentiment score to each piece of text, indicating whether the overall sentiment is positive, negative, neutral, or mixed.
 <br />The results of the sentiment analysis are then stored in a database. This allows the application to keep track of the sentiment analysis results for future reference. Finally, the database is queried to display a histogram of the sentiment analysis results to the user. This histogram provides a visual representation of the proportion of positive, negative, neutral, and mixed emotions present within the text.
 <br />Overall, this architecture allows the user to easily upload an image and receive a visual representation of the sentiment contained within the text of the image. The use of various AWS services and lambda functions enables the efficient and scalable processing of the image and analysis of the text.
+
+# Results
+![image](https://user-images.githubusercontent.com/51854114/214665605-77215335-6e42-4c65-a70d-b1430a025891.png)
+<br />![image](https://user-images.githubusercontent.com/51854114/214665781-c10c3cfe-5799-41f0-bb76-f44e2ea8edb8.png)
