@@ -1,7 +1,8 @@
 
 # What does the application do?
 The primary objective of the application is to identify and extract the text contained within an image provided by the user, and to subsequently perform a sentiment analysis on this text. The analysis aims to determine the proportion of positive, negative, neutral, and mixed emotions present within the text. This information is then used to provide the user with insights into the overall sentiment of the text, allowing them to better understand and interpret its meaning and implications. The application is designed to be a useful tool for those seeking to gain a deeper understanding of the sentiment expressed within an image, and to use this knowledge to inform their decision-making and communication efforts.
-#Architecture
+
+# Architecture
 ![image](https://user-images.githubusercontent.com/51854114/214664154-16ebc6e9-e7e7-49b1-854f-5fe3a5fed54f.png)
 The architecture of the application is designed to allow users to quickly and easily upload an image and receive a visual representation of the sentiment contained within the text of the image. The process begins when the user uploads an image to the web page. This image is then sent to the backend, where it is uploaded to an S3 bucket. This triggers a lambda function, which is a piece of code that runs in response to a specific event. In this case, the lambda function is activated when an image is uploaded to the S3 bucket.
 The lambda function uses the AWS Textract service to extract the text contained within the image. Textract is a machine learning service that is designed to automatically extract text and data from a variety of document types, including images. Once the text has been extracted, it is passed to another lambda function.
